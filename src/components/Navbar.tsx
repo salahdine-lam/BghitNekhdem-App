@@ -60,17 +60,24 @@ export default function Navbar({
         <div className="flex items-center gap-3 flex-1 max-w-xl">
           <button
             onClick={() => onTabChange("feed")}
-            className="flex items-center gap-2 group focus:outline-none shrink-0"
+            className="flex items-center gap-2.5 group focus:outline-none shrink-0"
           >
-            <div className="w-9 h-9 rounded bg-[#0A66C2] flex items-center justify-center text-white font-extrabold text-base tracking-tight shadow-sm group-hover:bg-[#004182] transition-colors">
-              Bn
+            {/* Custom Modern SVG Brand Logo Icon */}
+            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-[#0A66C2] via-[#004182] to-[#002244] p-1.5 shadow-sm group-hover:scale-105 transition-transform flex items-center justify-center relative overflow-hidden">
+              <svg viewBox="0 0 100 100" fill="none" className="w-full h-full">
+                <path d="M 66 18 A 38 38 0 0 1 84 48" fill="none" stroke="#70B5F9" strokeWidth="6" strokeLinecap="round" />
+                <path d="M 22 26 L 22 74 M 22 26 L 46 26 C 54 26, 58 31, 58 37 C 58 43, 53 47, 45 48 C 55 49, 60 54, 60 62 C 60 70, 54 74, 44 74 L 22 74" fill="none" stroke="#FFFFFF" strokeWidth="10" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M 50 74 L 50 48 C 50 48, 62 43, 72 49 C 78 52, 79 59, 79 66 L 79 74" fill="none" stroke="#70B5F9" strokeWidth="9" strokeLinecap="round" strokeLinejoin="round" />
+                <circle cx="82" cy="22" r="10" fill="#057642" stroke="#FFFFFF" strokeWidth="3" />
+                <path d="M 78 22 L 81 25 L 87 19" fill="none" stroke="#FFFFFF" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
             </div>
             <div className="hidden sm:flex flex-col text-left">
               <span className="font-bold text-[15px] leading-tight text-[#191919] dark:text-[#E9E9E9] tracking-tight">
                 Bghit <span className="text-[#0A66C2] dark:text-[#70B5F9]">nekhdem</span>
               </span>
               <span className="text-[10px] font-medium text-[#666666] dark:text-[#A8B2BD] uppercase tracking-wider">
-                Scanner Emploi IA ≥ 60%
+                AI Talent Matcher &amp; Job Radar
               </span>
             </div>
           </button>

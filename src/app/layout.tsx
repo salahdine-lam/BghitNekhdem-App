@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Bghit nekhdem | Scanner d'Offres d'Emploi IA à partir de votre CV",
   description:
     "Bghit nekhdem scanne en temps réel LinkedIn, Rekrute, Emploi.ma et Emploi-Public pour vous proposer uniquement les offres d'emploi adaptées à votre CV.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 120" fill="none" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient for Icon -->
+    <linearGradient id="bnIconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A66C2" />
+      <stop offset="60%" stop-color="#004182" />
+      <stop offset="100%" stop-color="#002244" />
+    </linearGradient>
+
+    <!-- Emerald Success Gradient for Checkmark / Target -->
+    <linearGradient id="bnSuccessGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#057642" />
+    </linearGradient>
+
+    <!-- Radar Pulse Wave Gradient -->
+    <linearGradient id="bnPulseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#70B5F9" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#00D2FF" stop-opacity="0.3" />
+    </linearGradient>
+
+    <!-- Drop Shadow for Icon -->
+    <filter id="bnShadow" x="-10%" y="-10%" width="125%" height="125%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0A66C2" flood-opacity="0.28" />
+    </filter>
+  </defs>
+
+  <!-- ================= LOGO ICON (Left) ================= -->
+  <g transform="translate(10, 10)">
+    <!-- Rounded App Icon Container (LinkedIn-style 100x100) -->
+    <rect x="0" y="0" width="100" height="100" rx="24" fill="url(#bnIconGrad)" filter="url(#bnShadow)" />
+
+    <!-- Subtle AI Radar Scanning Arcs -->
+    <path d="M 66 22 A 38 38 0 0 1 84 50" fill="none" stroke="url(#bnPulseGrad)" stroke-width="3" stroke-linecap="round" />
+    <path d="M 72 30 A 26 26 0 0 1 84 50" fill="none" stroke="#70B5F9" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="3 3" />
+
+    <!-- Stylized 'B' Letterform -->
+    <path d="M 24 26 L 24 74 M 24 26 L 46 26 C 54 26, 58 31, 58 37 C 58 43, 53 47, 45 48 C 55 49, 60 54, 60 62 C 60 70, 54 74, 44 74 L 24 74" 
+          fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Stylized 'n' Interlocking / Match Curve -->
+    <path d="M 52 74 L 52 48 C 52 48, 62 44, 72 49 C 78 52, 79 59, 79 66 L 79 74" 
+          fill="none" stroke="#70B5F9" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Career Target / Success Node (Emerald Checkmark badge) -->
+    <circle cx="79" cy="25" r="9" fill="url(#bnSuccessGrad)" stroke="#FFFFFF" stroke-width="2.5" />
+    <path d="M 75 25 L 78 28 L 83 22" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- ================= WORDMARK & BRANDING (Right) ================= -->
+  <!-- Main Brand Name: 'Bghit nekhdem' -->
+  <g transform="translate(132, 60)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="900" fill="#191919" letter-spacing="-1">
+      Bghit
+      <tspan fill="#0A66C2" dx="6">nekhdem</tspan>
+    </text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="2" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#666666" letter-spacing="2.2" text-transform="uppercase">
+      AI Talent Matcher &amp; Job Radar
+    </text>
+
+    <!-- Badge: '≥ 60% MATCH' -->
+    <g transform="translate(290, -32)">
+      <rect x="0" y="0" width="102" height="24" rx="12" fill="#E8F5E9" stroke="#057642" stroke-width="1.2" />
+      <circle cx="12" cy="12" r="4" fill="#057642" />
+      <text x="22" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="800" fill="#057642" letter-spacing="0.5">
+        MATCH ≥ 60%
+      </text>
+    </g>
+  </g>
+</svg>
