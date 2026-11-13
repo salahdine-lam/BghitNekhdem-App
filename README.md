@@ -2,17 +2,20 @@
 
 <div align="center">
 
-![Bghit nekhdem Banner](https://raw.githubusercontent.com/salahdine-lam/BghitNekhdem-App/main/public/banner.png)
+![Bghit nekhdem Banner](https://raw.githubusercontent.com/salahdine-lam/BghitNekhdem-App/main/public/logo.svg)
+
+### 🌐 Application en ligne : [https://bghit-nekhdem-app.vercel.app/](https://bghit-nekhdem-app.vercel.app/)
 
 **Plateforme intelligente d'analyse de CV par IA et de matching d'offres d'emploi en temps réel (Maroc & International).**
 
+[![Live Demo](https://img.shields.io/badge/Demo-En%20Ligne%20(Vercel)-0A66C2?style=for-the-badge&logo=vercel)](https://bghit-nekhdem-app.vercel.app/)
 [![Next.js](https://img.shields.io/badge/Next.js-15.5-black?logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19-blue?logo=react)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8?logo=tailwind-css)](https://tailwindcss.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178c6?logo=typescript)](https://www.typescriptlang.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-[Fonctionnalités](#-fonctionnalités-clés) • [Architecture](#-architecture-technique) • [Plateformes Scannées](#-plateformes-scannées-en-temps-réel) • [Installation](#-installation-locale) • [Déploiement Vercel](#-déploiement-sur-vercel)
+[Accéder à l'application](https://bghit-nekhdem-app.vercel.app/) • [Fonctionnalités](#-fonctionnalités-clés) • [Architecture](#-architecture-technique) • [Plateformes Scannées](#-plateformes-scannées-en-temps-réel) • [Installation](#-installation-locale)
 
 </div>
 
@@ -125,13 +128,11 @@ bghit-nekhdem/
 
 ---
 
-## 🚀 Déploiement sur Vercel
+## 🌐 Déploiement en Production
 
-1. Rendez-vous sur [vercel.com](https://vercel.com) et connectez votre compte GitHub.
-2. Cliquez sur **« Add New... » > « Project »**.
-3. Sélectionnez le dépôt **`BghitNekhdem-App`**.
-4. Cliquez sur **« Deploy »** sans modifier les paramètres.
-5. Votre application est immédiatement en ligne avec HTTPS et CDN mondial !
+L'application est déployée en continu sur **Vercel** avec CDN mondial et certificat HTTPS :
+* **Accès direct :** **[https://bghit-nekhdem-app.vercel.app/](https://bghit-nekhdem-app.vercel.app/)**
+* Chaque mise à jour poussée sur la branche `main` de ce dépôt GitHub déclenche un redéploiement automatique en moins d'une minute.
 
 ---
 
