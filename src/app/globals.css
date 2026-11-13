@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --linkedin-primary: #0a66c2;
+  --linkedin-hover: #004182;
+  --linkedin-canvas: #f4f2ee;
+  --linkedin-card: #ffffff;
+  --linkedin-border: #e0dfdc;
+  --linkedin-text: #191919;
+  --linkedin-muted: #666666;
+}
+
+html.dark {
+  --linkedin-primary: #70b5f9;
+  --linkedin-canvas: #000000;
+  --linkedin-card: #1b1f23;
+  --linkedin-border: #38434f;
+  --linkedin-text: #e9e9e9;
+  --linkedin-muted: #a8b2bd;
+}
+
+body {
+  background-color: var(--linkedin-canvas);
+  color: var(--linkedin-text);
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom subtle scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c7c5c1;
+  border-radius: 9999px;
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+  background: #38434f;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8c8c8c;
+}
